@@ -9,6 +9,7 @@
 # production
 /build
 /data
+/cluster
 
 # misc
 .DS_Store
