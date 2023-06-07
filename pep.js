@@ -1,5 +1,4 @@
 const puppeteer = require("puppeteer");
-const { convertVariant } = require("./test.js");
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -7,7 +6,6 @@ const { convertVariant } = require("./test.js");
     userDataDir: "data",
   });
 
-  const page = await browser.newPage();
   await page.goto("https://www.gsmarena.com/samsung_galaxy_s23+-12083.php", {
     timeout: 0,
   });
@@ -86,6 +84,6 @@ const { convertVariant } = require("./test.js");
     };
   });
 
-  console.log(data);
+  console.log(data.title);
   await browser.close();
 })();
