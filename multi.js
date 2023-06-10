@@ -69,13 +69,16 @@ const axios = require("axios").default;
 
                   variants = deviceSpecs.map((spec) => {
                     const [rom, ram] = spec.split(" ");
-                    return { ROM: parseInt(rom), RAM: parseInt(ram), price: 0 };
+                    return {
+                      ROM: parseInt(rom),
+                      RAM: parseInt(ram),
+                      official: 0,
+                      unofficial: 0,
+                    };
                   });
                 }
 
-                tableContent[
-                  subHeadingContent.split(" ").join("_").toLowerCase()
-                ] = textContent;
+                tableContent[subHeadingContent] = textContent;
               }
             }
           }
@@ -103,7 +106,7 @@ const axios = require("axios").default;
       const url = await img_url.evaluate((e) => e.src);
       data.img_url = url;
       const res = await axios.post(
-        "http://localhost:5000/upload/scraping",
+        "http://localhost:5000/api/upload/scraping",
         data
       );
       product = product - 1;
