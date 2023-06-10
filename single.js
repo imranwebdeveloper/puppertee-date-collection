@@ -59,13 +59,16 @@ const axios = require("axios").default;
 
                 variants = deviceSpecs.map((spec) => {
                   const [rom, ram] = spec.split(" ");
-                  return { ROM: parseInt(rom), RAM: parseInt(ram), price: 0 };
+                  return {
+                    ROM: parseInt(rom),
+                    RAM: parseInt(ram),
+                    official: 0,
+                    unofficial: 0,
+                  };
                 });
               }
 
-              tableContent[
-                subHeadingContent.split(" ").join("_").toLowerCase()
-              ] = textContent;
+              tableContent[subHeadingContent] = textContent;
             }
           }
         }
