@@ -8,7 +8,8 @@ const axios = require("axios").default;
       userDataDir: "data",
     });
     const page = await browser.newPage();
-    await page.goto("https://www.gsmarena.com/samsung-phones-9.php", {
+
+    await page.goto("https://www.gsmarena.com/tecno-phones-120.php", {
       timeout: 0,
     });
 
@@ -17,6 +18,7 @@ const axios = require("axios").default;
     const productLinks = await page.$$eval(".makers a", (links) =>
       links.map((link) => link.href)
     );
+
     console.log(`Total Products : ${productLinks.length}`);
     let product = productLinks.length;
 
@@ -26,16 +28,25 @@ const axios = require("axios").default;
         const title = document.querySelector(
           ".specs-phone-name-title"
         ).textContent;
+        const getRandomInt = Math.floor(Math.random() * 9000) + 1000;
+
         const brand = title.split(" ")[0];
         const regexPattern = new RegExp(`${brand}\\s`, "i");
         const model = title.replace(regexPattern, "");
-        const model_id = title.split(" ").join("_").toLowerCase();
+        const model_id = `${title
+          .split(" ")
+          .join("-")
+          .split(".")
+          .join("-")
+          .split("+")
+          .join("-")
+          .toLowerCase()}-${getRandomInt}`;
+
         const category = "smartphones";
         let variants;
         let img_url = "";
         const content = {};
-        let status = "upcoming";
-        let approved = true;
+        let status = "UNAPPROVED";
 
         const tableBodies = document.querySelectorAll("table > tbody");
 
@@ -96,7 +107,6 @@ const axios = require("axios").default;
           category,
           variants,
           status,
-          approved,
           img_url,
           content,
         };

@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const { headers } = require("./headers");
 const axios = require("axios").default;
 
 (async () => {
@@ -8,7 +9,7 @@ const axios = require("axios").default;
       userDataDir: "data",
     });
     const page = await browser.newPage();
-    await page.goto("https://www.gsmarena.com/xiaomi_poco_f5_pro-12257.php", {
+    await page.goto("https://www.gsmarena.com/infinix_gt_10_pro-12451.php", {
       timeout: 0,
     });
 
@@ -16,16 +17,26 @@ const axios = require("axios").default;
       const title = document.querySelector(
         ".specs-phone-name-title"
       ).textContent;
+      const getRandomInt = Math.floor(Math.random() * 9000) + 1000;
+
       const brand = title.split(" ")[0];
       const regexPattern = new RegExp(`${brand}\\s`, "i");
       const model = title.replace(regexPattern, "");
-      const model_id = title.split(" ").join("_").toLowerCase();
+      const model_id = `${title
+        .split(" ")
+        .join("-")
+        .split(".")
+        .join("-")
+        .split("+")
+        .join("-")
+        .toLowerCase()}-${getRandomInt}`;
+
       const category = "smartphones";
       let variants;
       let img_url = "";
       const content = {};
-      let status = "upcoming";
-      let approved = true;
+      let status = "UNAPPROVED";
+      let approximatePrice = 0;
 
       const tableBodies = document.querySelectorAll("table > tbody");
 
@@ -86,8 +97,8 @@ const axios = require("axios").default;
         category,
         variants,
         status,
-        approved,
         img_url,
+        approximatePrice,
         content,
       };
     });
@@ -95,8 +106,12 @@ const axios = require("axios").default;
     const img_url = await page.$(".specs-photo-main > a > img");
     const url = await img_url.evaluate((e) => e.src);
     data.img_url = url;
-    const res = await axios.post("http://localhost:5000/upload/scraping", data);
-    const resData = await res.data;
+    const res = await axios.post(
+      "http://localhost:5000/api/upload/scraping",
+      data
+      // headers,
+    );
+
     await browser.close();
   } catch (error) {
     console.log(error.message);
