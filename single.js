@@ -1,5 +1,4 @@
 const puppeteer = require("puppeteer");
-const { headers } = require("./headers");
 const axios = require("axios").default;
 
 (async () => {
