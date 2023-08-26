@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.bdprice.com.bd/",
+      "url": "https://www.bdprice.com.bd/",
+      "name": "Mobile Phone Price in Bangladesh 2023 | BD Price | BDPrice.com.bd",
+      "isPartOf": { "@id": "https://www.bdprice.com.bd/#website" },
+      "about": { "@id": "https://www.bdprice.com.bd/#organization" },
+      "primaryImageOfPage": {
+        "@id": "https://www.bdprice.com.bd/#primaryimage"
+      },
+      "image": { "@id": "https://www.bdprice.com.bd/#primaryimage" },
+      "thumbnailUrl": "https://www.bdprice.com.bd/wp-content/uploads/2020/09/BD-Price.jpg",
+      "datePublished": "2020-02-24T08:41:35+00:00",
+      "dateModified": "2023-08-08T14:19:05+00:00",
+      "description": "BD price provides all the latest motorcycle or bike and official or unofficial mobile phone price in bangladesh 2023 at bdprice.com.bd",
+      "breadcrumb": { "@id": "https://www.bdprice.com.bd/#breadcrumb" },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        { "@type": "ReadAction", "target": ["https://www.bdprice.com.bd/"] }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.bdprice.com.bd/#primaryimage",
+      "url": "https://www.bdprice.com.bd/wp-content/uploads/2020/09/BD-Price.jpg",
+      "contentUrl": "https://www.bdprice.com.bd/wp-content/uploads/2020/09/BD-Price.jpg",
+      "width": 300,
+      "height": 300,
+      "caption": "BD Price"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.bdprice.com.bd/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.bdprice.com.bd/#website",
+      "url": "https://www.bdprice.com.bd/",
+      "name": "BDPrice.com.bd",
+      "description": "Mobile phone price in Bangladesh 2023",
+      "publisher": { "@id": "https://www.bdprice.com.bd/#organization" },
+      "alternateName": "BD Price",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.bdprice.com.bd/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.bdprice.com.bd/#organization",
+      "name": "BDPrice.com.bd",
+      "alternateName": "BD Price",
+      "url": "https://www.bdprice.com.bd/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.bdprice.com.bd/#/schema/logo/image/",
+        "url": "https://www.bdprice.com.bd/wp-content/uploads/2021/02/BDPrice-Fav.svg",
+        "contentUrl": "https://www.bdprice.com.bd/wp-content/uploads/2021/02/BDPrice-Fav.svg",
+        "width": 1,
+        "height": 1,
+        "caption": "BDPrice.com.bd"
+      },
+      "image": { "@id": "https://www.bdprice.com.bd/#/schema/logo/image/" },
+      "sameAs": [
+        "https://www.facebook.com/bdpricecombd",
+        "https://twitter.com/bdpricecombd"
+      ]
+    }
+  ]
+}

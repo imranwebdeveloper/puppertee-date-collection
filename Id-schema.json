@@ -1,0 +1,309 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["WebPage", "FAQPage"],
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/",
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/",
+      "name": "Nokia C210 price in Bangladesh 2023 | bd price",
+      "isPartOf": { "@id": "https://www.bdprice.com.bd/#website" },
+      "primaryImageOfPage": {
+        "@id": "https://www.bdprice.com.bd/product/nokia-c210/#primaryimage"
+      },
+      "image": {
+        "@id": "https://www.bdprice.com.bd/product/nokia-c210/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.bdprice.com.bd/wp-content/uploads/2023/08/Nokia-C210-Price-in-Bangladesh.jpg",
+      "datePublished": "2023-08-16T12:50:59+00:00",
+      "dateModified": "2023-08-16T15:58:31+00:00",
+      "description": "Nokia C210 price in Bangladesh 2023 including unofficial & official bd price, specifications, reviews, features, variants, colors, news",
+      "breadcrumb": {
+        "@id": "https://www.bdprice.com.bd/product/nokia-c210/#breadcrumb"
+      },
+      "mainEntity": [
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690215727437"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216578213"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216592077"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216606572"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216613982"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216621186"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216651848"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216671980"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216686059"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216707800"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216721391"
+        },
+        {
+          "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216732843"
+        }
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": ["https://www.bdprice.com.bd/product/nokia-c210/"]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#primaryimage",
+      "url": "https://www.bdprice.com.bd/wp-content/uploads/2023/08/Nokia-C210-Price-in-Bangladesh.jpg",
+      "contentUrl": "https://www.bdprice.com.bd/wp-content/uploads/2023/08/Nokia-C210-Price-in-Bangladesh.jpg",
+      "width": 500,
+      "height": 500,
+      "caption": "Nokia C210 Price in Bangladesh"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.bdprice.com.bd/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "APS Products",
+          "item": "https://www.bdprice.com.bd/product/"
+        },
+        { "@type": "ListItem", "position": 3, "name": "Nokia C210" }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.bdprice.com.bd/#website",
+      "url": "https://www.bdprice.com.bd/",
+      "name": "BDPrice.com.bd",
+      "description": "Mobile phone price in Bangladesh 2023",
+      "publisher": { "@id": "https://www.bdprice.com.bd/#organization" },
+      "alternateName": "BD Price",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.bdprice.com.bd/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.bdprice.com.bd/#organization",
+      "name": "BDPrice.com.bd",
+      "alternateName": "BD Price",
+      "url": "https://www.bdprice.com.bd/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "en-US",
+        "@id": "https://www.bdprice.com.bd/#/schema/logo/image/",
+        "url": "https://www.bdprice.com.bd/wp-content/uploads/2021/02/BDPrice-Fav.svg",
+        "contentUrl": "https://www.bdprice.com.bd/wp-content/uploads/2021/02/BDPrice-Fav.svg",
+        "width": 1,
+        "height": 1,
+        "caption": "BDPrice.com.bd"
+      },
+      "image": { "@id": "https://www.bdprice.com.bd/#/schema/logo/image/" },
+      "sameAs": [
+        "https://www.facebook.com/bdpricecombd",
+        "https://twitter.com/bdpricecombd"
+      ]
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690215727437",
+      "position": 1,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690215727437",
+      "name": "What is the price of the Nokia C210?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This device is 12,000 Taka (Expected) starting price in Bangladesh.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216578213",
+      "position": 2,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216578213",
+      "name": "When Nokia C210 will release?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nokia company announced on 16 August 2023, global released on 14 September 2023.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216592077",
+      "position": 3,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216592077",
+      "name": "What are the available variants of the Nokia C210?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3GB/32GB",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216606572",
+      "position": 4,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216606572",
+      "name": "Which colors is the Nokia C210 available?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gray",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216613982",
+      "position": 5,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216613982",
+      "name": "Which processor is used in Nokia C210?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qualcomm SM6115 Snapdragon 662 (11 nm), Octa-core (4x2.0 GHz Kryo 260 Gold &amp; 4x1.8 GHz Kryo 260 Silver) processor on the phone.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216621186",
+      "position": 6,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216621186",
+      "name": "Is Nokia C210 4G or 5G?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it supports 2G, 3G, and 4G networks.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216651848",
+      "position": 7,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216651848",
+      "name": "What are the camera and video capabilities?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The back has a 13MP+2MP camera and a maximum of 1080p@30fps video.<br/>On the front, 5MP selfie camera and a maximum of 720p@30fps video.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216671980",
+      "position": 8,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216671980",
+      "name": "How the battery capacity is?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Li-Ion 3000 mAh",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216686059",
+      "position": 9,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216686059",
+      "name": "What sensors does this phone have?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GPS, accelerometer, light sensor",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216707800",
+      "position": 10,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216707800",
+      "name": "What type of fingerprint scanner does it have?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216721391",
+      "position": 11,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216721391",
+      "name": "Is Nokia C210 waterproof?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Dust and splash resistant",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Question",
+      "@id": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216732843",
+      "position": 12,
+      "url": "https://www.bdprice.com.bd/product/nokia-c210/#faq-question-1690216732843",
+      "name": "Where can I buy the Nokia C210?",
+      "answerCount": 1,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your nearest nokia official showroom and authorize outlet.",
+        "inLanguage": "en-US"
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}

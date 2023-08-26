@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const { headers } = require("./headers.js");
 const axios = require("axios").default;
 
 (async () => {
@@ -8,7 +9,7 @@ const axios = require("axios").default;
       userDataDir: "data",
     });
     const page = await browser.newPage();
-    await page.goto("https://www.gsmarena.com/infinix_gt_10_pro-12451.php", {
+    await page.goto("https://www.gsmarena.com/vivo_y77t-12482.php", {
       timeout: 0,
     });
 
@@ -27,7 +28,7 @@ const axios = require("axios").default;
         .split(".")
         .join("-")
         .split("+")
-        .join("-")
+        .join("-plus")
         .toLowerCase()}-${getRandomInt}`;
 
       const category = "smartphones";
@@ -107,8 +108,15 @@ const axios = require("axios").default;
     data.img_url = url;
     const res = await axios.post(
       "http://localhost:5000/api/upload/scraping",
-      data
-      // headers,
+      data,
+      {
+        headers: {
+          "x-api-key":
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImphIiwibmFtZSI6ImltcmFuIiwiZG9tYWluIjoibW9iaWxlc2VsbGVyYmQuY29tIiwiaWF0IjoxNjg0MjE5NjA0fQ.Nc22sGygtB-5smG1OqeWBocmG-tJyDFhkCPpeudwnx4",
+          Authorization:
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkVtcmFuIiwiX2lkIjoiNjQwMmVkMGM2NzEzZDJiNjQwMWIwZmY0IiwiaWF0IjoxNjkxNjMzNzIzLCJleHAiOjE2OTE2Njk3MjN9.GkC7X97DwRb11vbWQRXHtIXxekmmjmSlcEFmKOr6RB0",
+        },
+      }
     );
 
     await browser.close();
